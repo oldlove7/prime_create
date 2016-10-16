@@ -1,0 +1,20 @@
+﻿빌드 시작: 2016-10-16 오후 3:25:14
+     1>2 노드의 "E:\git_source\prime_create\prime_create\prime_create.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\PrimeCotrol.cpp ..\PrimeManager.cpp
+         PrimeManager.cpp
+     1>e:\git_source\prime_create\primemanager.cpp(197): error C2664: 'int sprintf_s(char *,size_t,const char *,...)' : 매개 변수 1을(를) 'TCHAR [256]'에서 'char *'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\prime_create\primemanager.cpp(216): error C2664: 'atoi' : 매개 변수 1을(를) 'TCHAR [256]'에서 'const char *'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\prime_create\primemanager.cpp(248): error C2664: 'int sprintf_s(char *,size_t,const char *,...)' : 매개 변수 1을(를) 'TCHAR [128]'에서 'char *'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>e:\git_source\prime_create\primemanager.cpp(257): error C2660: '_ultoa_s' : 함수는 3개의 매개 변수를 사용하지 않습니다.
+         PrimeCotrol.cpp
+     1>e:\git_source\prime_create\primecotrol.cpp(21): error C2660: 'strcpy_s' : 함수는 2개의 매개 변수를 사용하지 않습니다.
+         코드를 생성하고 있습니다...
+     1>"E:\git_source\prime_create\prime_create\prime_create.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.70
