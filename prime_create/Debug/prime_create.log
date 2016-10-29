@@ -1,4 +1,4 @@
-﻿빌드 시작: 2016-10-16 오후 3:25:14
+﻿빌드 시작: 2016-10-30 오전 12:53:01
      1>2 노드의 "E:\git_source\prime_create\prime_create\prime_create.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
          C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\PrimeCotrol.cpp ..\PrimeManager.cpp
@@ -17,4 +17,4 @@
 
 빌드하지 못했습니다.
 
-경과 시간: 00:00:01.70
+경과 시간: 00:00:03.00
